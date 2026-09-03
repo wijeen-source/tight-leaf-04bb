@@ -1,0 +1,31 @@
+# wrangler.toml สำหรับ Worker: tight-leaf-04bb
+# เอกสาร: https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "tight-leaf-04bb"
+main = "src/index.js"
+compatibility_date = "2026-09-03"
+
+# Static Assets — กำหนดโฟลเดอร์ที่เก็บไฟล์ static
+[assets]
+directory = "./public"
+
+# ตัวอย่าง Bindings (เปิดใช้ตามต้องการ)
+
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "your-kv-namespace-id"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "your-bucket-name"
+
+# [[d1_databases]]
+# binding = "MY_DB"
+# database_name = "your-database-name"
+# database_id = "your-database-id"
+
+# [vars]
+# MY_VAR = "my-value"
+
+# [observability]
+# enabled = true
