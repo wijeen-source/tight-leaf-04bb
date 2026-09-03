@@ -1,0 +1,2 @@
+# วางไฟล์ static ของคุณที่นี่ (เช่น index.html, CSS, JS, รูปภาพ)
+# Cloudflare จะให้บริการไฟล์เหล่านี้โดยอัตโนมัติผ่าน Workers Static Assets
